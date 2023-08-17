@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body style="background-color: rgb(237, 236, 236);">
+    <div style="background-color: white; width: 50%; padding: 1rem;border-radius: 10px;">
+        <div>
+            <h1>Registrarte</h1>
+        </div>
+        <div>
+            Es rápido y fácil
+        </div>
+        <div>
+            <hr>
+        </div>
+        <form action="procesos/procRegistro.html" method="post">
+            <div style="margin-bottom: .5rem;">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            </div>
+            <div style="margin-bottom: .5rem;">
+                <input type="email" name="email" id="email" placeholder="Correo electrónico">
+            </div>
+            <div style="margin-bottom: .5rem;">
+                <input type="password" name="pass" id="pass" placeholder="Contraseña">
+            </div>
+            <div>
+                <div>
+                    <label for="fecha">Fecha de Nacimiento</label>
+                </div>
+                
+                <select name="dia" id="dia">
+                    <!-- option*31{$} -->
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                <select name="mes" id="mes">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                </select>
+                <select name="anio" id="anio">
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                    <option value="">2014</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                    <option value="">20110</option>
+
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Registrarte">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
