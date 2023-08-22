@@ -1,0 +1,17 @@
+/* Encabezado */
+.encabezado {
+    text-align: right;
+}
+
+.linkEnc {
+    margin: .2rem;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgPerfil {
+    width: 40px;
+}
+
+/* Logo */
