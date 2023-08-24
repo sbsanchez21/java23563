@@ -1,0 +1,31 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    background-image: url("../images/fondo.jpg");
+}
+
+
+a {
+    background-color: rgba(0, 0, 255, 0.367);
+}
+
+.texto {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: .1rem solid black;
+    background-color: rgba(195, 173, 230, 0.493);
+}
+
+.padre {
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.hijo {
+    font-size: 1em;
+    background-color: #7e4545;
+}

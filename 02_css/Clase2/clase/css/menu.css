@@ -1,0 +1,12 @@
+.menu {
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: .3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
