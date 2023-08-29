@@ -1,0 +1,17 @@
+.caja {
+    display: inline-block;
+    background-color: red;
+    padding: 1rem;
+    margin: .5rem;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#posicion {
+    background: blue;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+    z-index: -1;
+}

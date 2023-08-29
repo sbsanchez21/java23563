@@ -1,0 +1,14 @@
+.fondo {
+    background-image: url("../images/fondo3.jpg");
+    height: 200px;
+    margin-bottom: 3rem;
+}
+
+.fondo img {
+    width: 100px;
+    margin: .5rem;
+    border-radius: 50px;
+    position: relative;
+    top: 140px;
+
+}

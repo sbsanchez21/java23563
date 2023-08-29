@@ -1,0 +1,7 @@
+.menu {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0px;
+}

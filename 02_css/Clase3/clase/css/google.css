@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+.encabezado {
+    text-align: right;
+    font-size: .8rem;
+}
+
+.encabezado a {
+    margin: .3rem;
+    color: black;
+    text-decoration: none;
+}
+
+/* .linkEnc {
+    margin: .2rem;
+    color: black;
+    text-decoration: none;
+    
+} */
+
+.encabezado img {
+    width: 60px;
+    border-radius: 50px;    
+}
+
+/* .imgPerfil {
+    width: 40px;
+    border-radius: 30px;
+} */
+
+/* Logo */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 450px;
+    margin-bottom: .5rem;
+    /* margin: 0 0 .5rem 0; */
+}
+
+/* form */
+.formulario {
+    text-align: center;
+}
+
+.divInput {
+    margin-bottom: 1.5rem;
+}
+
+.divInput input {
+    height: 45px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0rem 1rem;    
+}
+
+/* .inputTexto {
+    height: 45px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0rem 1rem;
+} */
+
+.btnForm input {
+    background-color: rgb(247, 245, 245);
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 5px;
+}
