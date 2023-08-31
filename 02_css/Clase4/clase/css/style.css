@@ -1,0 +1,42 @@
+h3 {
+    background-color: red!important;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aqua;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgray;
+}
+
+.linkAzul {
+    background-color: blue;
+    color: white;
+    padding: .5rem 1rem;
+    margin: 1rem;
+}
+
+.linkRojo {
+    background-color: red;
+    color: white;
+    padding: .5rem 1rem;
+    margin: 1rem;
+}
+
+.linkVerde {
+    background-color: green;
+    color: white;
+    padding: .5rem 1rem;
+    margin: 1rem;
+}

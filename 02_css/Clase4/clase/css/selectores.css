@@ -1,0 +1,25 @@
+/* sel atributo */
+a {
+    background-color: red;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
+
+p {
+    color: blue;
+}
+
+/* clase */
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* id */
+#publicidad {
+    background-color: yellow;
+    padding: 1rem;
+    width: 100px;
+}
