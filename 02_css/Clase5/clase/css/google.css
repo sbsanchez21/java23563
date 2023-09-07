@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+.encabezado {
+    /* background-color: aqua; */
+    /* text-align: right; */
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5rem;
+}
+
+.encabezado a {
+    margin: .3rem;
+    color: black;
+    text-decoration: none;
+}
+
+.encabezado a:hover {
+    text-decoration: underline;
+}
+
+/* .linkEnc {
+    margin: .2rem;
+    color: black;
+    text-decoration: none;
+    
+} */
+
+.encabezado img {
+    width: 40px;
+    border-radius: 50px;   
+    margin: .3rem; 
+}
+
+.encabezado img:hover {
+    box-shadow: 0px 0px 10px lightgray;
+    cursor: pointer;
+}
+
+
+/* .imgPerfil {
+    width: 40px;
+    border-radius: 30px;
+} */
+
+/* Logo */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 450px;
+    margin-bottom: .5rem;
+    /* margin: 0 0 .5rem 0; */
+}
+
+/* form */
+.formulario {
+    text-align: center;
+}
+
+.divInput {
+    margin-bottom: 1.5rem;
+}
+
+.divInput input {
+    height: 45px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0rem 1rem;    
+}
+
+.divInput input:hover {
+    box-shadow: 0px 0px 10px rgb(229, 229, 229);
+}
+
+/* .inputTexto {
+    height: 45px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0rem 1rem;
+} */
+
+.btnForm input {
+    background-color: rgb(247, 245, 245);
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 5px;
+    font-size: .9rem;
+    color: rgb(82, 82, 82);
+}
+
+.btnForm input:hover {
+    border: 1px solid lightgray;
+    cursor: pointer;
+}

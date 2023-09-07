@@ -1,0 +1,50 @@
+div {
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+a:hover {
+
+    background-color: lightsalmon;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+li:hover {
+    background-color: lightblue;
+    color: blue;
+    border-radius: 5px;
+}
+
+.buscar input {
+    height: 30px;
+    /* padding: .5rem; */
+    border-radius: 30px;
+    width: 100px;
+    border: 1px solid lightgray;
+}
+
+.buscar input:focus {
+    width: 250px;
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+.formulario input:read-only {
+    cursor: not-allowed;
+    background-color: lightgray;
+}
+
+.formulario input:required {
+
+    background-color: red;
+}

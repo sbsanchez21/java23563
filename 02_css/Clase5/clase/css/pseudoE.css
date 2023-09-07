@@ -1,0 +1,21 @@
+.texto::first-letter {
+    font-size: 2rem;
+}
+
+.texto::first-line {
+    background-color:lightblue;
+}
+
+.texto::selection {
+    background-color: yellow;
+}
+
+.cita::after {
+    content: "El autor es ZZZ";
+    background-color: lightblue;
+}
+
+.note::before {
+    content: "Leer importrante";
+    background-color: rebeccapurple;
+}
