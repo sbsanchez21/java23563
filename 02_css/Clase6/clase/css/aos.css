@@ -1,0 +1,17 @@
+.caja {
+    background-color: lightcoral;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.caja2 {
+    background-color: lightblue;
+    height: 100px;
+
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
