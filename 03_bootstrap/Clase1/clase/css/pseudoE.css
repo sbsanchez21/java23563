@@ -1,0 +1,27 @@
+.texto img {
+    float: left;
+    width: 200px;
+    margin: 1rem;
+}
+
+.texto::first-letter {
+    font-size: 4rem;
+}
+
+.texto::first-line {
+    background-color:lightgray;
+}
+
+.texto::selection {
+    background-color: yellow;
+}
+
+.cita::after {
+    content: "El autor es ZZZ";
+    background-color: lightblue;
+}
+
+.note::before {
+    content: "Leer importrante";
+    background-color: rebeccapurple;
+}
