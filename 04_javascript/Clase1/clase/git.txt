@@ -1,0 +1,30 @@
+Inicializar un dir git y subirlo a github:
+=========================================
+- instalar git https://git-scm.com/downloads
+- crear cuenta en github github.com/
+- crear carpeta donde van a programar el integrador, abrimos vsc en la carpeta y crear archivo index.html 
+- terminal -> new terminal 
+- verificar version git -v
+- git init  // inicializa el proyecto en git 
+- git add . //agrega todos los archivos nuevos al área de preparación
+- git commit -m 'comentario' //sube los archivos del area preparación a repo local
+- github crear repositorio 
+- git remote add origin https://github.com/sbsanchez21/inteFront-2023-23563.git
+- git push -u origin master
+
+Subir archivos modificados y nuevos al repo remoto:
+===================================================
+- git add .
+- git commit -m 'link a oradores'
+- git push -u origin master
+
+
+Publicar proyecto online en github pages:
+=========================================
+- settings -> pages
+- branch -> master save
+
+Entregar proyecto:
+==================
+- copiar link github pages para ver el proyecto online
+- pegarlo en la entrada de TP Integrador del Aula virtual
