@@ -1,0 +1,36 @@
+- ejemplo de lectura materias profesores
+- relación 1-n
+- foreign key: concepto
+	ALTER TABLE materias 
+	ADD FOREIGN KEY(idProfesor) REFERENCES profesores(idProfesor);
+
+- JOIN: Una JOIN cláusula se usa para combinar filas de dos o más tablas, según un id que los relaciona
+
+https://www.w3schools.com/sql/sql_join.asp
+
+materias.nombre
+materias.turno
+profesores.nombre
+profesores.apellido
+profesores.telefono
+profesores.email
+
+
+
+SELECT materias.nombre, profesores.nombre, profesores.apellido FROM materias INNER JOIN profesores on materias.idProfesor = profesores.idProfesor
+
+- tipos de join
+SELECT materias.nombre, profesores.nombre, profesores.apellido FROM materias RIGHT JOIN profesores on materias.idProfesor = profesores.idProfesor 
+
+
+
+SELECT materias.nombre, materias.turno, alumnos.nombre, alumnos.apellido, alumnos.email
+FROM (
+(materias INNER JOIN materiasalumnos  
+ 	ON materias.idMateria = materiasalumnos.idMateria)
+	 INNER JOIN alumnos 
+    	ON materiasalumnos.idAlumno = alumnos.idAlumno
+)
+
+
+ARle\M-$xA@7zftZ
