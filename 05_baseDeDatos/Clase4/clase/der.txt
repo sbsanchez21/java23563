@@ -1,0 +1,122 @@
+Analisis de Datos y Diagrama/Modelo de Entidad Relación
+========================================================
+
+Consecionaria:
+1- Identificar entidades
+Clientes
+Vendedores
+Automóviles
+
+2-Identificar campos y tipos de datos
+Clientes:
+id	int not null autoincrement primary key
+nombre varchar(50)
+apellido varchar(50)
+dni	bigint 
+email varchar(70)
+//direccion varchar(100) Av. La Plata 2333, 4to C, Caba, Buenos Aires, Argentina, cp 1233
+idDirección int foreoing key direccion
+tel bigint +54 9 00111
+
+Vendedores:
+id	int not null autoincrement primary key
+nombre varchar(50)
+apellido varchar(50)
+dni	bigint 
+email varchar(70)
+direccion varchar(100)
+tel bigint +54 9 00111
+
+Automóviles:
+id	int not null autoincrement primary key
+marca varchar(50)
+modelo year
+patente varchar(50)
+cantPuertas int 
+tipo [full,compact]
+
+3- Relaciones
+Clientes:
+id	int not null autoincrement primary key
+nombre varchar(50)
+apellido varchar(50)
+dni	bigint 
+email varchar(70)
+//direccion varchar(100) Av. La Plata 2333, 4to C, Caba, Buenos Aires, Argentina, cp 1233
+idDirección int foreoing key direccion
+tel bigint +54 9 00111
+
+Automóviles:
+id	int not null autoincrement primary key
+marca varchar(50)
+modelo year
+patente varchar(50)
+cantPuertas int 
+tipo [full,compact]
+idCliente 
+idVendedor
+
+4-Normalización
+Dirección:
+id	int not null autoincrement primary key
+calle varchar(50)
+altura int
+idLocalidad int foreoing key localidad
+pais varchar(50)
+codPostal varchar(50)
+piso varchar(50)
+dpto varchar(50)
+
+Localidad:
+id	int not null autoincrement primary key
+nombre varchar(50)
+idProvincia int foreoing key provicia(id)
+
+Provincia:
+id	int not null autoincrement primary key
+nombre varchar(50)
+
+
+
+DER Oradores
+==============
+Oradores
+Participantes
+
+Oradores:
+==========
+id int not null autoincrement primary key
+nombre varchar(50) not null
+apellido varchar(50) not null indice
+etiquetas varchar(50)
+temas varchar(200)
+fotoPerfil varchar(100) url  c:\oradores\images\steve.png
+dni int not null indice unico
+idDirección int foreingkey direccion
+tel int
+email varchar(70)
+
+Participantes:
+===============
+id int not null autoincrement primarykey
+nombre varchar(50)
+apellido varchar(50)
+dni int 
+idDirección id foreingkey direccion
+tel int 
+email varchar(70)
+ocupacion varchar(50)
+estudios varchar(50)
+
+
+
+Dirección:
+=========
+id	int not null autoincrement primary key
+calle varchar(50)
+altura int
+idLocalidad int foreoing key localidad
+pais varchar(50)
+codPostal varchar(50)
+piso varchar(50)
+dpto varchar(50)
