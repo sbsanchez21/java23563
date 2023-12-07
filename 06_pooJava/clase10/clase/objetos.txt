@@ -1,0 +1,10 @@
+objetos				datos			funciones
+mochila camping		60lt			carga cosas pesadas
+mochila compu		20lts			caga cosas pequeñas, carga compu, cargador
+mochila ciclitas	10lts			carga cosas pequeñas, provee agua
+
+pizarra 			madera			mosrar lo escrito x tizas
+pizarra				melamina		escribir x marcador fibra
+
+marcador			rojo			escribir en pizarra melamina
+marcador			azul			escribir en pizarra melamina
